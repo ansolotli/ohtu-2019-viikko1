@@ -120,7 +120,7 @@ public class VarastoTest {
     @Test
     public void varastostaEiSaaOttaaAlleNollaa() {
         
-        assertEquals(5, varasto.otaVarastosta(-2), vertailuTarkkuus);
+        assertEquals(0, varasto.otaVarastosta(-2), vertailuTarkkuus);
     }
     
     @Test
